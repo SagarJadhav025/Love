@@ -165,14 +165,14 @@
     <div class="background-animation"></div>
 
     <div id="password-page" class="container">
-        <h1 style="animation: fadeInBounce 1s ease-in-out;">Enter your Birthdate 💖</h1>
+        <h1 style="animation: fadeInBounce 1s ease-in-out;">Enter that three words 💖</h1>
         <input type="password" id="password-input" placeholder="Enter password">
         <br>
         <button onclick="checkPassword()">Submit</button>
     </div>
 
     <div id="sad-page" class="container hidden">
-        <div class="sad-message">you dont know your own birthdate 😢</div>
+        <div class="sad-message">you dont love me 😢</div>
         <button onclick="retry()">Try Again</button>
     </div>
 
@@ -198,7 +198,7 @@
     </div>
 
     <script>
-        const correctPassword = "23/10/2003"; // Set to the birthdate
+        const correctPassword = "i love you"; // Set to the birthdate
 
         function checkPassword() {
             const password = document.getElementById('password-input').value;
@@ -255,3 +255,4 @@
     </script>
 </body>
 </html>
+
